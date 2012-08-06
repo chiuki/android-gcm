@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">GCM Sample Client</string>
+  <string name="unregistered">Unregistered</string>
+  <string name="registering">Registering</string>
+  <string name="gcm_registration">Got id from Google: %1$s</string>
+  <string name="server_registration">Sent id to server: %1$s</string>
+</resources>
