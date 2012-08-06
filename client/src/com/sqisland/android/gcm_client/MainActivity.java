@@ -56,6 +56,8 @@ public class MainActivity extends Activity {
     final String regId = GCMRegistrar.getRegistrationId(this);
     if (!regId.equals("")) {
       sendIdToServer(regId);
+    } else {
+      GCMRegistrar.register(this, Constants.SENDER_ID);
     }
   }
 
