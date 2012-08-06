@@ -17,7 +17,7 @@ Server
 ------
 You need to change `API_KEY` to the one you generated from your API project at `code.google.com`.
 
-The server three endpoints:
+The server has three endpoints:
 
   - `/`
   Shows the list of registered devices, with a form to send them a message.
