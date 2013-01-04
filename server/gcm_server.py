@@ -146,7 +146,7 @@ class GCMHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
     headers = {
       'Content-Type' : 'application/json',
-      'Authorization' : 'key=' + self.API_KEY
+      'Authorization' : 'key=' + API_KEY
     }
 
     url = 'https://android.googleapis.com/gcm/send'
